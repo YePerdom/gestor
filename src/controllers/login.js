@@ -11,7 +11,7 @@ export const login = async ({email, password}) => {
     
     // alert("no llega respuesta")
 
-    const users = await resp.data;
+    const users = resp.data;
 
     if (users === 0){
       alert("Usuario o contraseña invalidos");

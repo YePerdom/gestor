@@ -1,0 +1,17 @@
+{
+    "users": [
+        {
+            "email": "admin@admin.com",
+            "name": "admin",
+            "password": "12345",
+            "role": "ADMIN"
+        },
+        {
+            "email": "coder@coder.com",
+            "name": "coder",
+            "password": "12345",
+            "role": "CODER"
+        }
+    ],
+    "projects": []
+}

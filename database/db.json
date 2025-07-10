@@ -7,11 +7,38 @@
             "role": "ADMIN"
         },
         {
-            "email": "coder@coder.com",
-            "name": "coder",
+            "email": "coder1@coder.com",
+            "name": "coder 1",
+            "proyect": "",
             "password": "12345",
+            "role": "CODER"
+        },
+        {
+            "email": "coder2@coder.com",
+            "name": "coder 2",
+            "proyect": "",
+            "password": "54321",
+            "role": "CODER"
+        },
+        {
+            "email": "coder3@coder.com",
+            "name": "coder 3",
+            "proyect": "",
+            "password": "12354",
             "role": "CODER"
         }
     ],
-    "projects": []
+    "proyects": [
+        {
+            "gestor_tareas": {
+                "tasks" :[
+                    {
+                        "task" : "analizar problema",
+                        "status": "pendiente",
+                        "coder": "coder 1"
+                    }
+                ]
+            }
+        }
+    ]
 }

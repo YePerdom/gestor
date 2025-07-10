@@ -1,3 +1,3 @@
 import { renderRoute } from "./router";
 
-document.addEventListener("load", renderRoute());
+document.addEventListener("DOMContentLoaded", renderRoute());
